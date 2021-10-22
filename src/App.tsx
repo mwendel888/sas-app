@@ -30,7 +30,7 @@ useEffect(():void => {
   return <div>
     
     <button
-    onClick={():Promise<void>=> hadleGetCadastro1()}
+    onClick={():void=> hadleGetCadastro()}
     >sdasdas</button>
     Teste TS marcio</div>;
 };

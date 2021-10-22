@@ -61,14 +61,14 @@ if (isProd) {
     overlay: true,
     // historyApiFallback: true,
     // contentBase: './public',
-    proxy: {
-      '/api': {
-        target: 'https://sas-kpi-api.herokuapp.com/',
-        secure: false,
-        changeOrigin: true,
-        pathRewrite: { '^/api': '' }
-      }
-    },
+    // proxy: {
+    //   '/api': {
+    //     target: 'https://sas-kpi-api.herokuapp.com/',
+    //     secure: false,
+    //     changeOrigin: true,
+    //     pathRewrite: { '^/api': '' }
+    //   }
+    // },
   };
 }
 

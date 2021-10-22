@@ -1,7 +1,7 @@
 import axios, { AxiosPromise, Method } from 'axios'
 import * as url from 'url'
 
-const BASE_URL = '/api'
+const BASE_URL = 'https://sas-kpi-api.herokuapp.com'
 
 export interface QueryParameters {
   PageSize: string
